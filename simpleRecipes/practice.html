@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- nav  -->
+    <!--   <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+    <!-- end of nav -->
+    <main class="page_contact">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want to get in touch?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+            impedit ipsum quaerat vero expedita nihil!
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+            consequuntur inventore iste vero ad laudantium praesentium!
+            Consectetur facere odit reiciendis ratione minus eligendi itaque!
+            Eaque eum sequi nam.
+          </p>
+         
+          <p>
+            Make an order now! Fill in an order form and send it to us. We will get in touch within 1 hour.
+          </p>
+         
+          
+        </article>
+        <article class="_form_body">
+      
+          <form action="#" id="form" class="form contact-form">
+            <div style="text-align: center;">
+              <span ><i class="fas fa-envelope-open"></i></span>
+            </div>
+            <div class="form-row">
+              <label html="name" for="userName" class="form-label">your name*</label>
+              <input type="text" name="username" id="userName" class="form-input _reqired " required />
+            </div>
+            <div class="form-row">
+              <label html="email" for="userEmail" class="form-label">your email*</label>
+              <input type="email" name="email" id="userEmail" class="form-input _reqired _email " required />
+            </div>
+
+            <div class="form-row">
+              <label html="userPhoneNumber" for="userPhoneNumber" class="form-label">your phone number*</label>
+              <input type="number" name="userPhoneNumber" id="userPhoneNumber" class="form-input _reqired " required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-label">type of delivery</div>
+
+              <label for="deliveryHome">Delivery home</label>
+              <input type="radio" name="delivery" value="delivery home" id="deliveryHome"  class="form-input-radio"  /> &nbsp;
+
+              <label for="noDelivery">I will take it myself</label>
+              <input type="radio" name="delivery" value="noDelivery" id="noDelivery" class="form-input-radio" checked /> <br>
+
+              <label for="serviceDelivery">Service delivery</label>
+              <input type="radio" name="delivery" value="serviceDelivery" id="serviceDelivery" class="form-input-radio"/>
+            </div>
+
+            <div class="form-row">
+              <div class="form-label">Choose category of products</div>
+
+              <label for="Beef">Beef</label>
+              <input type="checkbox" name="productCategory" id="Beef" value="Beef" class="form-input-radio" checked />&nbsp;&nbsp;
+
+              <label for="Lamb">Lamb</label>
+              <input type="checkbox" name="productCategory" id="Lamb" value="Lamb" class="form-input-radio"/>&nbsp;&nbsp;
+               <label for="Veal">Veal</label>
+              <input type="checkbox" name="productCategory" id="Veal" value="Veal" class="form-input-radio"/>&nbsp;&nbsp; 
+
+              <label for="Chicken">Chicken</label>
+              <input type="checkbox" name="productCategory" id="Chicken" value="Chicken" class="form-input-radio"/>&nbsp;&nbsp; 
+              
+              <label for="Rabbit">Rabbit</label>
+              <input type="checkbox" name="productCategory" id="Rabbit" value="Rabbit" class="form-input-radio"/> <br>
+              
+              <label for="Turkey">Turkey</label>
+              <input type="checkbox" name="productCategory" id="Turkey" value="Turkey" class="form-input-radio" />&nbsp;&nbsp;
+              
+              <label for="Others" class="form-input-radio">Others</label>
+              <input type="checkbox" name="productCategory" id="Others" value="Others" class="form-input-radio" />
+            </div>
+
+            <div class="form-row">
+              <div class="form-label">type of payment:</div>
+              <label for="cardPayment">Card</label>&nbsp;
+              <input type="radio" name="payment" id="cardPayment" value="Card" class="form-input-radio" checked />&nbsp;&nbsp;&nbsp;
+
+              <label for="cashPayment">Cash</label>&nbsp;
+              <input type="radio" name="payment"  id="cashPayment" value="Cash"  class="form-input-radio"/>
+
+            </div>
+            <div class="form-row">
+              <label html=date" for="deliveryDate" class="form-label">date of delivery:</label>
+              <input type="date" name="deliveryDate" id="deliveryDate" class="form-input" />
+            </div>
+            <div class="form-row">
+              <label html=deliveryAddress" for="deliveryAddress" class="form-label">address of delivery:</label>
+              <textarea name="deliveryAddress" type="text" id="deliveryAddress" class="form-textarea"
+                placeholder="Enter full address of delivery"></textarea>
+            </div>
+            <!-- ------------------ -->
+            <div class="form-row">
+              <label html="message" for="messageForm" class="form-label">your message:</label>
+              <textarea name="messageForm" id="messageForm" class="form-textarea"
+                placeholder="Enter the detailes of your order"></textarea>
+            </div>
+            <div class="form-row">
+              <input type="checkbox" name="formAgreement" id="formAgreement" value="agreement" class="form-input-radio _reqired  " checked  required/>
+              <label for="formAgreement">I agree to have my personal data processed according to the <a href="#">"Privacy Policy"</a></label>
+            </div>
+
+            <button type="submit" id="submitContactForm" class="btn_form btn-block_form">submit</button><br><br>
+            <button type="reset" id="resetContactForm" class="btn_form btn-block_form">reset</button>
+          </form>
+        </article>
+      </section>
+    
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <a href="https://www.johnsmilga.com/">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/practice.js"></script>
+  </body>
+
+</html>
